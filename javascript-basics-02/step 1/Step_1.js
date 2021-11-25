@@ -1,0 +1,2 @@
+// document.querySelector("img").onmouseover=(()=>document.querySelector("img").src="images/image1_2.jpg");
+document.querySelector("img").addEventListener("mouseover", ()=>{document.querySelector("img").src="images/image1_2.jpg"})
