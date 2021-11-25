@@ -1,0 +1,2 @@
+document.querySelector("#name").onblur=(()=>{document.querySelector("#name").value="thank you for participating!"});
+// document.querySelector("#name").addEventListener("blur", ()=>{document.querySelector("#name").value="thank you for participating!"});
