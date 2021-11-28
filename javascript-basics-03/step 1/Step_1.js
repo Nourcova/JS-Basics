@@ -1,0 +1,2 @@
+document.getElementById("image1").onmouseover=(()=>document.getElementById("image1").style.border="solid black 3px");
+document.getElementById("image1").onmouseout=(()=>{console.log("hello");document.getElementById("image1").style.border="none"});
